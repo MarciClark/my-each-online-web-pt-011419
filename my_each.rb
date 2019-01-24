@@ -1,6 +1,10 @@
-collection = ["a", "a", "c", "d"]
+collection = ["a,b,c,d"]
 
 def my_each(collection)
-my_each(collection) do |i|
-    puts i 
+  i = 0
+  while i < array.length
+  
+  yield(array[i])
+  i = i + 1
   end
+end

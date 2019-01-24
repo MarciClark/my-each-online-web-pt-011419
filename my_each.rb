@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
-  # code here
-end
+collection = ["a", "a", "c", "d"]
+
+def my_each(collection)
+my_each(collection) do |i|
+    puts i 
+  end

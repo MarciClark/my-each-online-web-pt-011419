@@ -1,6 +1,6 @@
 collection = ["a,b,c,d"]
 
-def my_each(collection) do |i|
+def my_each(collection)
   i = 0
 
   while i < array.length

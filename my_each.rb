@@ -7,4 +7,5 @@ def my_each(collection) do |i|
   yield collection [i]
   i = i + 1
   end
+  collection
 end
